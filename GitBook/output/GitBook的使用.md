@@ -25,3 +25,19 @@ $ npm install gitbook -g
 **具体使用可参考：**
 * [GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
 * [GitBook使用](https://wuxiaolong.gitbooks.io/wuxiaolong/GitBookGuide.html)
+
+## 插件的使用
+> 新建一个 book.json 文件，可以配置网站信息、在 plugins 和 pluginsConfig 字段添加插件等。
+
+
+
+{
+"author": "liuhe",
+"description": "Liuhe's Book",
+"plugins": ["github"],
+"pluginsConfig":{
+    "github": {
+        "url": "https://github.com/liuhea"    
+        }
+    }
+}
