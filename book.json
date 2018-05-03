@@ -25,13 +25,6 @@
         }
     },
      "donate": {
-     "button": "默认值：Donate",
-
-          "wechat": "例：/images/qr.png",
-          "alipay": "http://blog.willin.wang/static/images/qr.png",
-          "title": "默认空",
-          
-          "alipayText": "默认值：支付宝捐赠",
-          "wechatText": "默认值：微信捐赠"
+     "button": "默认值：Donate"
         }
 }
