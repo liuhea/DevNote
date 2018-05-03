@@ -28,6 +28,7 @@
           "wechat": "/Youdao/volley-https.png",
           "alipay": "/Youdao/volley-https.png",
           "alipayText": "支付宝捐赠",
+          "button": "默认值：Donate",
           "wechatText": "微信捐赠"
         }
 }
