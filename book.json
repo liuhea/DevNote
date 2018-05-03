@@ -10,7 +10,7 @@
     },
     "plugins": ["github",
                 "anchor-navigation-ex",
-                "prism-ext", "-highlight",
+                "prism", "-highlight",
                 "donate", 
                 "sharing-plus","-sharing"
                 ],
@@ -31,7 +31,7 @@
                 }
         },
         "prism": {
-            "theme": "prismjs/themes/prism-tomorrow.css"
+            "css": ["prismjs/themes/prism-solarizedlight.css"]
         },
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
