@@ -4,7 +4,8 @@
     "description": "Liuhe's Book",
     "plugins": ["github",
                 "anchor-navigation-ex",
-                 "prism","-highlight","donate"
+                 "prism","-highlight",
+                 "donate"
                 ],
     "pluginsConfig":{
         "github": {
