@@ -1,2 +1,5 @@
+# Book build output
 _book
+
+# Dependency directory
 node_modules/
