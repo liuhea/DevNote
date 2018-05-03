@@ -61,5 +61,5 @@ $ npm install gitbook -g
 * [Prism](https://plugins.gitbook.com/plugin/prism):基于 Prism 的代码高亮。
 * [donate](https://plugins.gitbook.com/plugin/donate):打赏
 
-其它可参考[gitbook plugins官网](https://plugins.gitbook.com/)
+其它插件可通过 [gitbook plugins官网](https://plugins.gitbook.com/) 搜索。
 
