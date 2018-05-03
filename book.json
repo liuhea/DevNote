@@ -34,25 +34,6 @@
             "wechat": "/Youdao/weixin_pay.png",
             "button": "赞赏",
             "wechatText": "微信打赏"
-         },
-        "sharing": {
-            "douban": false,
-            "facebook": false,
-            "google": false,
-            "hatenaBookmark": false,
-            "instapaper": false,
-            "line": false,
-            "linkedin": false,
-            "messenger": false,
-            "pocket": false,
-            "qq": true,
-            "qzone": true,
-            "stumbleupon": false,
-            "twitter": false,
-            "viber": false,
-            "vk": false,
-            "weibo": true,
-            "whatsapp": false
-        }
+         }
     }
 }
