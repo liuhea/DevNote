@@ -27,7 +27,8 @@
             "css": [
                  "prismjs/themes/prism-tomorrow.css"
             ]
-        },"donate": {
+        },
+        "donate": {
             "wechat": "/Youdao/weixin_pay.png", 
             "alipay": "/Youdao/ali_pay.png",
             "title": "",
