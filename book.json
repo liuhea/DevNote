@@ -25,7 +25,7 @@
         },
         "prism": {
             "css": [
-                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+                 "prismjs/themes/prism-tomorrow.css"
             ]
         },"donate": {
             "wechat": "/Youdao/weixin_pay.png", 
