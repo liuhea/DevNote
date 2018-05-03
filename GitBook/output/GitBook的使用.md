@@ -50,6 +50,6 @@ $ npm install gitbook -g
 
 ![](/GitBook/res/bookjson-github.png)
 
-
-```
+说明：
+    anchor-navigation-ex：添加Toc到侧边悬浮导航以及回到顶部按钮
 
