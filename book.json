@@ -34,6 +34,10 @@
             "wechat": "/Youdao/weixin_pay.png",
             "button": "赞赏",
             "wechatText": "微信打赏"
-         }
+         },"sharing": {
+            "all": [
+                "weibo","qq","qzone","google","douban"
+            ]
+        },
     }
 }
