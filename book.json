@@ -5,7 +5,7 @@
     "language" : "zh-hans",
     "links" : {
         "sidebar" : {
-            "Home" : "https://github.com/liuhea"
+            "liuhea" : "https://github.com/liuhea"
         }
     },
     "plugins": ["github",
