@@ -31,7 +31,7 @@
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
             "button": "赞赏",
-            "wechatText": "-"
+            "wechatText": ""
          }
     }
 }
