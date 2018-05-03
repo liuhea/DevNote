@@ -30,7 +30,8 @@
         },
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
-            "button": "赞赏" 
+            "button": "赞赏",
+            "wechatText": "微信打赏"
          }
     }
 }
