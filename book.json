@@ -1,5 +1,6 @@
 {
-    "author": "Liuhe",
+    "title" : "Gitbook Use",
+    "author": "liuhe",
     "description": "Liuhe's Book",
     "plugins": ["github",
                 "anchor-navigation-ex",
