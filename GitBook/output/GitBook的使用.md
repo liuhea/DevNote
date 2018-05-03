@@ -28,10 +28,7 @@ $ npm install gitbook -g
  gitbook install // 安装插件
 ```
 
-**具体使用可参考：**
 
-* [GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
-* [GitBook使用](https://wuxiaolong.gitbooks.io/wuxiaolong/GitBookGuide.html)
 
 ## 插件的使用
 
@@ -62,4 +59,13 @@ $ npm install gitbook -g
 * [donate](https://plugins.gitbook.com/plugin/donate):打赏
 
 其它插件可通过 [gitbook plugins官网](https://plugins.gitbook.com/) 搜索。
+
+
+
+## **参考**
+
+* [GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
+* [GitBook使用](https://wuxiaolong.gitbooks.io/wuxiaolong/GitBookGuide.html)
+
+
 
