@@ -5,7 +5,7 @@
     "language" : "zh-hans",
     "plugins": ["github",
                 "anchor-navigation-ex",
-                "prism","-highlight","prism-themes"
+                "prism","-highlight","prism-themes",
                 "donate", 
                 "sharing-plus","-sharing"
                 ],
