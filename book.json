@@ -23,5 +23,13 @@
                   "level3Icon": "fa fa-hand-o-right"
             }
         }
-    }
+    },
+    "donate": {
+          "wechat": "/images/qr.png",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": "默认空",
+          "button": "默认值：Donate",
+          "alipayText": "默认值：支付宝捐赠",
+          "wechatText": "默认值：微信捐赠"
+        }
 }
