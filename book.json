@@ -51,10 +51,7 @@
             "viber": false,
             "vk": false,
             "weibo": true,
-            "whatsapp": false,
-            "all": [
-                "weibo","qq","qzone","google","douban"
-            ]
+            "whatsapp": false
         }
     }
 }
