@@ -6,7 +6,8 @@
 具体介绍：[Kotlin之let,apply,with,run函数区别](https://blog.csdn.net/guijiaoba/article/details/78975011)
 
 
-![img](https://github.com/liuhea/DevNote/blob/97deb376e71c2f2b714164281e19187b6c37a7e5/Kotlin/drawable/kotlin-let_apply_run.png?raw=true)
+![img](https://github.com/liuhea/DevNote/blob/master/Kotlin/res/kotlin-let_apply_run.png?raw=true)
+
 
 ```
 fun testLet() {
