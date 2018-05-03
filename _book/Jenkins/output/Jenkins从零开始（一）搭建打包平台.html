@@ -1,14 +1,14 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-hans" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Jenkins从零开始（一）搭建打包平台 · GitBook</title>
+        <title>Jenkins从零开始（一）搭建打包平台 · Liuhe's Book</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
-        <meta name="author" content="Liuhe">
+        <meta name="author" content="liuhe">
         
         
     
@@ -21,7 +21,11 @@
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
                 
             
                 
@@ -75,7 +79,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="输入并搜索" />
 </div>
 
             
@@ -86,7 +90,16 @@
 <ul class="summary">
     
     
+    
+        
+        <li>
+            <a href="https://github.com/liuhea" target="_blank" class="custom-link">LiuHe</a>
+        </li>
+    
+    
 
+    
+    <li class="divider"></li>
     
 
     
@@ -230,7 +243,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本书使用 GitBook 发布
         </a>
     </li>
 </ul>
@@ -273,9 +286,9 @@
 <p>[TOC]</p>
 <h2 id="&#x5B89;&#x88C5;jenkins"><a name="&#x5B89;&#x88C5;jenkins" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x88C5;jenkins"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x5B89;&#x88C5;jenkins</h2>
 <p>&#x524D;&#x63D0;&#xFF1A;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;mac ,&#x5DF2;&#x5B89;&#x88C5;<a href="https://brew.sh/" target="_blank">Hombrew</a></p>
-<pre><code>&#x279C;  ~ brew instal jenkins
+<pre class="language-"><code>&#x279C;  ~ brew instal jenkins
 </code></pre><h2 id="&#x542F;&#x52A8;jenkins"><a name="&#x542F;&#x52A8;jenkins" class="anchor-navigation-ex-anchor" href="#&#x542F;&#x52A8;jenkins"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x542F;&#x52A8;jenkins</h2>
-<pre><code>&#x279C;  ~ jenkins start
+<pre class="language-"><code>&#x279C;  ~ jenkins start
 ......
 Jenkins initial setup is required. An admin user has been created and a password generated.
 Please use the following password to proceed to installation:
@@ -283,7 +296,7 @@ Please use the following password to proceed to installation:
     1e398714de71476a82ef8c29a5591f0c //&#x6D4F;&#x89C8;&#x5668;&#x542F;&#x52A8;&#x7684;admin &#x5BC6;&#x7801;&#xFF0C;&#x9996;&#x6B21;&#x5B89;&#x88C5;&#x542F;&#x52A8;&#x4F1A;&#x6709;&#x8FD9;&#x4E2A;&#x65E5;&#x5FD7;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6CE8;&#x610F;&#xFF0C;&#x540E;&#x8FB9;&#x767B;&#x5F55;&#x4F1A;&#x6709;&#x70B9;&#x5C0F;&#x9EBB;&#x70E6;
 
 This may also be found at: /Users/liuhe/.jenkins/secrets/initialAdminPassword // jenkins&#x5BC6;&#x7801;&#x5B58;&#x50A8;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x4E22;&#x5931;&#x5BC6;&#x7801;&#x53EF;&#x4EE5;&#x4ECE;&#x6B64;&#x5904;&#x627E;&#x56DE;
-</code></pre><pre><code>&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;&#xFF1A;http://localhost:8080/
+</code></pre><pre class="language-"><code>&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;&#xFF1A;http://localhost:8080/
 </code></pre><p>  <img src="https://github.com/liuhea/DevNote/blob/master/Jenkins/res/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80Jenkins.png?raw=true" alt="image"></p>
 <h2 id="&#x5B89;&#x88C5;plugin"><a name="&#x5B89;&#x88C5;plugin" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x88C5;plugin"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x5B89;&#x88C5;plugin</h2>
 <p><strong>&#x5B89;&#x88C5;&#x6210;&#x529F;&#x540E;&#x7B2C;&#x4E00;&#x6B21;&#x542F;&#x52A8;&#xFF0C;&#x4F1A;&#x51FA;&#x73B0;&#x5F15;&#x5BFC;&#x9875;&#xFF0C;&#x5F15;&#x5BFC;&#x63D0;&#x793A;&#x4F60;&#x5B89;&#x88C5;&#x5FC5;&#x8981;&#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x5927;&#x4F53;&#x5982;&#x4E0B;&#xFF08;&#x4E0B;&#x56FE;&#x662F;&#x7BA1;&#x7406;&#x9875;&#x9762;&#x622A;&#x56FE;&#xFF09;</strong></p>
@@ -299,7 +312,7 @@ This may also be found at: /Users/liuhe/.jenkins/secrets/initialAdminPassword //
 <h2 id="&#x7B80;&#x5355;&#x914D;&#x7F6E;&#xFF08;&#x4E0D;&#x91CD;&#x8981;&#xFF09;"><a name="&#x7B80;&#x5355;&#x914D;&#x7F6E;&#xFF08;&#x4E0D;&#x91CD;&#x8981;&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x5355;&#x914D;&#x7F6E;&#xFF08;&#x4E0D;&#x91CD;&#x8981;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. &#x7B80;&#x5355;&#x914D;&#x7F6E;&#xFF08;&#x4E0D;&#x91CD;&#x8981;&#xFF09;</h2>
 <h3 id="&#x7AEF;&#x53E3;&#x53F7;&#x4E34;&#x65F6;&#x4FEE;&#x6539;"><a name="&#x7AEF;&#x53E3;&#x53F7;&#x4E34;&#x65F6;&#x4FEE;&#x6539;" class="anchor-navigation-ex-anchor" href="#&#x7AEF;&#x53E3;&#x53F7;&#x4E34;&#x65F6;&#x4FEE;&#x6539;"><i class="fa fa-link" aria-hidden="true"></i></a>1.5.1. &#x7AEF;&#x53E3;&#x53F7;&#x4E34;&#x65F6;&#x4FEE;&#x6539;</h3>
 <p>&#x4E34;&#x65F6;&#x4FEE;&#x6539;&#x7AEF;&#x53E3;&#x53F7;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x53EA;&#x662F;&#x91CD;&#x542F;Jenkins&#x7684;&#x8BDD;&#x4F1A;&#x53D1;&#x73B0;&#x542F;&#x52A8;&#x7684;&#x8FD8;&#x662F;8080&#x7AEF;&#x53E3;&#xFF0C;&#x4E34;&#x65F6;&#x4FEE;&#x6539;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF0C;&#x627E;&#x5230;jenkins war&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;&#xFF0C;&#x6267;&#x884C;&#xFF08;&#x5047;&#x5982;&#x6211;&#x8981;&#x4FEE;&#x6539;&#x4E3A;8088&#xFF09;&#xFF1A;</p>
-<pre><code>&#x279C;  ~ java -jar /Applications/Jenkins/jenkins.war  --httpPort=8088
+<pre class="language-"><code>&#x279C;  ~ java -jar /Applications/Jenkins/jenkins.war  --httpPort=8088
 Running from: /Applications/Jenkins/jenkins.war
 webroot: $user.home/.jenkins
 </code></pre><h2 id="&#x53C2;&#x8003;"><a name="&#x53C2;&#x8003;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;"><i class="fa fa-link" aria-hidden="true"></i></a>1.6. &#x53C2;&#x8003;</h2>
@@ -348,7 +361,7 @@ webroot: $user.home/.jenkins
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Jenkins从零开始（一）搭建打包平台","level":"1.3","depth":1,"next":{"title":"Jenkins从零开始（二）常用插件及问题","level":"1.4","depth":1,"path":"Jenkins/output/Jenkins从零开始（二）常用插件及问题.md","ref":"Jenkins/output/Jenkins从零开始（二）常用插件及问题.md","articles":[]},"previous":{"title":"GitBook的使用","level":"1.2","depth":1,"path":"GitBook/output/GitBook的使用.md","ref":"GitBook/output/GitBook的使用.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","anchor-navigation-ex","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/liuhea"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Liuhe","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","sharing":{"qq":false,"all":["weibo","qq","qzone","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"description":"Liuhe's Book"},"file":{"path":"Jenkins/output/Jenkins从零开始（一）搭建打包平台.md","mtime":"2018-05-03T14:51:42.573Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T15:10:40.878Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Jenkins从零开始（一）搭建打包平台","level":"1.3","depth":1,"next":{"title":"Jenkins从零开始（二）常用插件及问题","level":"1.4","depth":1,"path":"Jenkins/output/Jenkins从零开始（二）常用插件及问题.md","ref":"Jenkins/output/Jenkins从零开始（二）常用插件及问题.md","articles":[]},"previous":{"title":"GitBook的使用","level":"1.2","depth":1,"path":"GitBook/output/GitBook的使用.md","ref":"GitBook/output/GitBook的使用.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","anchor-navigation-ex","prism","-highlight","prism-themes","donate","sharing-plus","-sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/liuhea"},"livereload":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"","alipayText":"支付宝打赏","button":"赞赏","title":"","wechat":"/Youdao/weixin_pay.png","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showLevel":true},"prism-themes":{},"sharing":{"all":["weibo","qq","qzone","google"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liuhe","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Liuhe's Book","language":"zh-hans","links":{"sidebar":{"LiuHe":"https://github.com/liuhea"}},"gitbook":"*","description":"Liuhe's Book"},"file":{"path":"Jenkins/output/Jenkins从零开始（一）搭建打包平台.md","mtime":"2018-05-03T14:51:42.573Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T17:22:39.565Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -359,6 +372,14 @@ webroot: $user.home/.jenkins
     
         
         <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
         
     
         
@@ -379,10 +400,6 @@ webroot: $user.home/.jenkins
     
         
         <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
         
     
         
