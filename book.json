@@ -20,6 +20,11 @@
                       "level2Icon": "fa fa-hand-o-right",
                       "level3Icon": "fa fa-hand-o-right"
                 }
+        },
+        "prism": {
+            "css": [
+             "prismjs/themes/prism-tomorrow.css"
+            ]
         }
     }
 }
