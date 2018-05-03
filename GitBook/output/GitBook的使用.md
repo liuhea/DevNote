@@ -1,6 +1,6 @@
 # GitBook的使用
 
-##GitBook Editor
+## GitBook Editor
 
 官方编辑器：https://legacy.gitbook.com/editor
 
