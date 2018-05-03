@@ -52,7 +52,7 @@ $ npm install gitbook -g
 
 ![](/GitBook/res/bookjson-github.png)
 
-说明：
+**常用插件说明：**
     * [github](https://plugins.gitbook.com/plugin/github):在右上角显示 github 仓库的图标链接。
     * [anchor-navigation](https://plugins.gitbook.com/plugin/anchor-navigation)：添加Toc到侧边悬浮导航以及回到顶部按钮
     * [Prism](https://plugins.gitbook.com/plugin/prism):基于 Prism 的代码高亮。
