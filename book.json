@@ -1,28 +1,27 @@
 {
-"author": "Liuhe",
-"description": "Liuhe's Book",
-"plugins": ["github",
-            "anchor-navigation-ex",
-             "prism", "-highlight"
-             
-            ],
-"pluginsConfig":{
-    "github": {
-        "url": "https://github.com/liuhea"    
-    },
-    "anchor-navigation-ex": {
-            "associatedWithSummary":false,
-            "showLevel":true,
-            "multipleH1": true,
-            "mode": "float",
-
-             "pageTop": {
-                  "showLevelIcon": false,
-                  "level1Icon": "fa fa-hand-o-right",
-                  "level2Icon": "fa fa-hand-o-right",
-                  "level3Icon": "fa fa-hand-o-right"
-            }
+    "author": "Liuhe",
+    "description": "Liuhe's Book",
+    "plugins": ["github",
+                "anchor-navigation-ex",
+                 "prism", "-highlight"
+                 
+                ],
+    "pluginsConfig":{
+        "github": {
+            "url": "https://github.com/liuhea"    
+        },
+        "anchor-navigation-ex": {
+                "associatedWithSummary":false,
+                "showLevel":true,
+                "multipleH1": true,
+                "mode": "float",
+    
+                 "pageTop": {
+                      "showLevelIcon": false,
+                      "level1Icon": "fa fa-hand-o-right",
+                      "level2Icon": "fa fa-hand-o-right",
+                      "level3Icon": "fa fa-hand-o-right"
+                }
         }
     }
-  }
 }
