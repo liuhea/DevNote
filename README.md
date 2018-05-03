@@ -9,10 +9,11 @@ GitHub: https://github.com/liuhea
 CSDN  : https://blog.csdn.net/liuhedev
 
 2018年学习内容：
-    * 数据结构与算法
-    * 设计模式
-    * Python3
-    * Qt
+
+    - 数据结构与算法
+    - 设计模式
+    - Python3
+    - Qt
     
     
 ![](https://github.com/liuhea/DevNote/raw/master/res_youdao/LH%E7%9F%A5%E8%AF%86%E6%9E%B6%E6%9E%84.png?raw=true)
