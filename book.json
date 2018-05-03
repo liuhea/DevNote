@@ -25,7 +25,7 @@
         },
         "prism": {
             "css": [
-                 "prismjs/themes/prism-solarizedlight.css"
+                 "prismjs/themes/prism-twilight.css"
             ]
         },
         "donate": {
