@@ -3,7 +3,8 @@
 "description": "Liuhe's Book",
 "plugins": ["github",
             "anchor-navigation-ex",
-             "donate"
+             "prism", "-highlight"
+             
             ],
 "pluginsConfig":{
     "github": {
@@ -22,10 +23,10 @@
                   "level3Icon": "fa fa-hand-o-right"
             }
         }
-    },"donate": {
-            "wechat": "http://7q5c2h.com1.z0.glb.clouddn.com/wechatpay.JPG",
-            "title": "",
-            "button": "赏",
-            "wechatText": "微信打赏"
-        }
+    },
+    "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ]
+  }
 }

@@ -54,4 +54,5 @@ $ npm install gitbook -g
 
 说明：
     anchor-navigation-ex：添加Toc到侧边悬浮导航以及回到顶部按钮
+    https://plugins.gitbook.com/plugin/prism
 
