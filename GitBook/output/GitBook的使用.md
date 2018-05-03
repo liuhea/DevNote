@@ -22,4 +22,6 @@ $ npm install gitbook -g
  gitbook build // 导出书籍
 ```
 
-**具体使用**可参考：[GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
+**具体使用可参考：**
+* [GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
+* [GitBook使用](https://wuxiaolong.gitbooks.io/wuxiaolong/GitBookGuide.html)
