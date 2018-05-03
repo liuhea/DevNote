@@ -37,8 +37,10 @@
         },
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
+            "alipay": "/Youdao/ali_pay.png",
             "button": "赞赏",
-            "wechatText": "微信打赏"
+            "wechatText": "微信打赏",            
+            "alipayText": "支付宝打赏"
          },
          "sharing": {
             "all": [
