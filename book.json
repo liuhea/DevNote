@@ -4,7 +4,7 @@
     "description": "Liuhe's Book",
     "plugins": ["github",
                 "anchor-navigation-ex",
-                 "prism","-highlight"
+                 "prism","-highlight","donate",
                 ],
     "pluginsConfig":{
         "github": {
@@ -26,6 +26,13 @@
             "css": [
                  "prismjs/themes/prism-tomorrow.css"
             ]
+        },"donate": {
+            "wechat": "https://zhangjikai.com/resource/weixin.png",
+            "alipay": "https://zhangjikai.com/resource/alipay.png",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
         }
     }
 }
