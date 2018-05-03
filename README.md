@@ -1,9 +1,18 @@
-# DevNote
-开发学习资料收集
-youdao
+# liuhe's Book
 
-近几年目标：看书看书看书。
+刘贺，Andorid开发工程师，目标全栈。
 
-如果涉及硬件或者其他，还需要学习Qt语言。
+总结经验，记录自己的成长。
 
-![image](https://github.com/liuhea/DevNote/blob/master/res_youdao/LH%E7%9F%A5%E8%AF%86%E6%9E%B6%E6%9E%84.png?raw=true)
+GitHub: https://github.com/liuhea
+
+CSDN  : https://blog.csdn.net/liuhedev
+
+2018年学习内容：
+    * 数据结构与算法
+    * 设计模式
+    * Python3
+    * Qt
+    
+    
+![](https://github.com/liuhea/DevNote/raw/master/res_youdao/LH%E7%9F%A5%E8%AF%86%E6%9E%B6%E6%9E%84.png?raw=true)
