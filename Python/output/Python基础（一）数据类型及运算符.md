@@ -1,4 +1,4 @@
-# Python基础（一）- 数据类型及运算符
+# Python基础（一）数据类型及运算符
 
 > 学习资料：[Python3基础教程](http://www.runoob.com/python3/python3-basic-syntax.html) 或[ 廖雪峰Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 
