@@ -28,7 +28,7 @@
           "wechat": "/Youdao/volley-https.png",
           "alipay": "http://blog.willin.wang/static/images/qr.png",
           "title": "默认空",
-          "button": "默认值：Donate",
+          "button": "Donate",
           "alipayText": "默认值：支付宝捐赠",
           "wechatText": "默认值：微信捐赠"
         }
