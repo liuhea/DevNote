@@ -2,6 +2,7 @@
     "title" : "Liuhe's Book",
     "author": "liuhe",
     "description": "Liuhe's Book",
+    "language" : "zh-hans",
     "plugins": ["github",
                 "anchor-navigation-ex",
                  "prism","-highlight",
