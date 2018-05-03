@@ -3,6 +3,7 @@
 "description": "Liuhe's Book",
 "plugins": ["github",
             "anchor-navigation-ex",
+            "donate",
             "-search"
             ],
 "pluginsConfig":{
