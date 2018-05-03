@@ -2,7 +2,7 @@
 
 [TOC]
 
-## 1.let、apply、with、run使用
+## let、apply、with、run使用
 具体介绍：[Kotlin之let,apply,with,run函数区别](https://blog.csdn.net/guijiaoba/article/details/78975011)
 
 
@@ -34,7 +34,7 @@ fun testLet() {
     println("resultRun=$resultRun |resultApply=$resultApply ")//resultRun=520 |resultApply=Hello World 
 ```
 
-##  2.return语句
+##  return语句
 在Kotlin中，可以直接使用=符号来直接返回一个函数的值。但是函数体语句有没有大括号{}意义不同。
 ```
    val sum = fun(a: Int, b: Int) = a + b
@@ -44,7 +44,7 @@ fun testLet() {
     println(sum2(1, 3)) //() -> kotlin.Int
     println(sum2(1, 3).invoke())    //4
 ```
-##  3.== 与===
+##  == 与===
 
 - ==：结构相等(数值相等)
 - ===：引用相等
@@ -55,7 +55,7 @@ fun testLet() {
     println(a === b)   //false
 ```
 
-## 4.map与flatMap的区别
+## map与flatMap的区别
 - map：遍历每一个元素;
 - flatMap：遍历每一个元素，并铺平元素;flatMap中的函数一定要返回一个Iterable，不然报错
 
@@ -66,14 +66,14 @@ var mapList = list.map{it->it.toString()} //[[10, 20], [30, 40], [50, 60]]
 var flatMapList = list.flatMap{it->it.asIterable()}//[10, 20, 30, 40, 50, 60]
 
 ```
-## 5. ::双冒号操作符
+## ::双冒号操作符
 
 表示把一个方法当做一个参数，传递到另一个方法中进行使用，通俗的来讲就是引用一个方法。
 ```
 listOf.forEach({println(it)})
 listOf.forEach(::println) 
 ```
-## 6. 双击退出应用
+## 双击退出应用
 
 ```
 /**
@@ -95,7 +95,7 @@ override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
 }
 ```
 
-## 7. lateinit 和 by lazy
+## lateinit 和 by lazy
 
 > lateinit(var)和 lazy(val) 是 Kotlin 中的两种不同的延迟初始化技术。
 
