@@ -1,12 +1,14 @@
 # GitBook的使用
 
-## GitBook Editor
+## GitBook创建
+
+### GitBook Editor
 
 官方编辑器：https://legacy.gitbook.com/editor
 
 ![](https://github.com/liuhea/DevNote/blob/6cb2f733c874771382eafb055479c640c5708653/gitbook/GitBook%20Editor.png?raw=true)
 
-## 命令行方式
+### 命令行方式
 > 如果不安装GitBook Editor，也可以使用GitBook,并且支持本地预览
 
 ```
@@ -27,7 +29,7 @@ $ npm install gitbook -g
 * [GitBook使用](https://wuxiaolong.gitbooks.io/wuxiaolong/GitBookGuide.html)
 
 ## 插件的使用
-> GitBook除了一些默认设置外，我们也可以通过book.json进行个性化设置，如页面图标（如GitHub等），网站信息（个人信息等）等
+> GitBook除了一些默认设置外，我们也可以通过book.json进行个性化设置，如页面图标（如GitHub等），网站信息（个人信息等）等，具体如下。
 
 新建一个 book.json 文件，增加配置信息，如在plugins和pluginsConfig 字段添加插件等。
 
