@@ -3,7 +3,6 @@
 "description": "Liuhe's Book",
 "plugins": ["github",
             "anchor-navigation-ex",
-            "donate",
             "-search"
             ],
 "pluginsConfig":{
@@ -23,8 +22,5 @@
                   "level3Icon": "fa fa-hand-o-right"
             }
         }
-    },
-     "donate": {
-     "button": "默认值：Donate"
-        }
+    }
 }
