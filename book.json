@@ -7,7 +7,7 @@
         "sidebar" : {
             "Home" : "https://github.com/liuhea"
         }
-    }
+    },
     "plugins": ["github",
                 "anchor-navigation-ex",
                 "prism","-highlight","prism-themes",
