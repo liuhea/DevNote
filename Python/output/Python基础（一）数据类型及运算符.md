@@ -7,7 +7,7 @@
 ## Python2.x与3.x区别
 目前，Python有两个版本，一个是2.x版，一个是3.x版，这两个版本是不兼容的。
 
-<img src="https://github.com/liuhea/DevNote/blob/HEAD/python/python2%20%E4%B8%8Epython3.png?raw=true" width = "400" height = "300" alt="图片名称" align=center />
+<img src="https://github.com/liuhea/DevNote/blob/HEAD/Python/res/python2%20%E4%B8%8Epython3.png?raw=true" width = "400" height = "300" alt="图片名称" align=center />
 
 ## 注释
 > 使用#
