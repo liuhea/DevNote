@@ -16,12 +16,14 @@ $ npm install gitbook -g
 ```
 电脑需安装 nodejs环境，以便能够使用 npm 来安装 gitbook。
 
-基本使用，主要三个命令：
+基本使用，主要几个命令：
 
 ```
  gitbook init //初始化书籍目录
  gitbook serve //编译书籍,浏览器查看 http://localhost:4000/
  gitbook build // 导出书籍
+ 
+ gitbook install // 安装插件
 ```
 
 **具体使用可参考：**
