@@ -45,7 +45,7 @@
                 "weibo","qq","qzone","google"
             ]
         },"theme-default": {
-            "showLevel": true
+            "showLevel": false
         }
     }
 }
