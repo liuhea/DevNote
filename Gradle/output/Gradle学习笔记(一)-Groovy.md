@@ -13,7 +13,9 @@ assert version == 12
 version++
 assert version == 12
 ```
+
 报错日志如下：
+
 ```
 ➜  Desktop gradle build.gradle
 Parallel execution with configuration on demand is an incubating feature.
@@ -80,6 +82,7 @@ myString3 = """
  String
 """
 ```
+
 ## 集合API
 ### List
 
@@ -94,6 +97,7 @@ buildTools << 'Gradle' // 左移运算符表示向List中添加一个新元素
 
 ### Map
 > 默认实现java.lang.LinkedHashMap。
+
 ```
 def inceptionYears = ['Ant':2000,"Maven":2004]​​
 inceptionYears.each{buildTool,year -> 
@@ -105,6 +109,7 @@ inceptionYears.each{buildTool,year ->
 inceptionYears['Ant'] = 2009 //赋值操作
 //Ant was first released in 2009
 ```
+
 ## 命名参数
 在定义一个类时，如果不暴露一个构造器来初始化其中的属性，而是直接new ProjectVersion(major, minor)，可能会报错如下：
 
@@ -114,6 +119,7 @@ groovy.lang.GroovyRuntimeException: Could not find matching constructor for: Pro
 	at Script1$initProjectVersion.callCurrent(Unknown Source)
 	at Script1.run(Script1.groovy:12)
 ```
+
 Groovy提供一个更加方便的方式来设置属性值，叫命名参数。这种机制首先调用类的默认构造器，然后为每个参数调用相应的setter方法。
 ```
 ​class ProjectVersion {
@@ -171,6 +177,7 @@ def incrementMajorProjectVersion={ version, tempVar->
 
 incrementMajorProjectVersion(projectVersion,3) 
 ```
+
 **注意：当显示参数加括号时，会报错。**
 
 ```
@@ -202,6 +209,7 @@ class ProjectVersion {
 ProjectVersion projectVersion= new ProjectVersion(major:1, minor:10)
 def minorVersion={projectVersion.minor}
 println(minorVersion()) // 10
+
 ```
 4. 闭包委托
 闭包代码在委托的闭包上执行。默认的，这个委托就是闭包的所有者。
@@ -228,6 +236,7 @@ projectVersion.increment{
     println(major) // 2
 }
 ```
+
 ## 在Gradle构建脚本中使用Groovy
 
 Gradle构建脚本就是合法的Groovy脚本。
@@ -243,6 +252,7 @@ dependencies{
     compile 'commons-codec:commons-code:1.6'//调用闭包委托的对象compile方法，省略括号
 }
 ```
+
 ## 关键字
 
 ```
