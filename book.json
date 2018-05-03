@@ -6,7 +6,8 @@
     "plugins": ["github",
                 "anchor-navigation-ex",
                 "prism","-highlight",
-                "donate"
+                "donate", "-sharing",
+                 "sharing-plus",
                 ],
     "pluginsConfig":{
         "github": {
