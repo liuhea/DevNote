@@ -29,7 +29,7 @@ $ npm install gitbook -g
 ## 插件的使用
 > GitBook除了一些默认设置外，我们也可以通过book.json进行个性化设置，如页面图标（如GitHub等），网站信息（个人信息等）等
 
-新建一个 book.json 文件，增加配置信息，如在 plugins 和 pluginsConfig 字段添加插件等。
+新建一个 book.json 文件，增加配置信息，如在plugins 和 pluginsConfig 字段添加插件等。
 
 ### 配置GitHub图片及跳转
 ![](/GitBook/res/bookjson-github.png)
