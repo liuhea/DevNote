@@ -1,6 +1,7 @@
-# Jenkins从零开始-安装（一）
+# Jenkins从零开始（一）搭建打包平台
 
 Keywords：Mac、Jenkins 安装、git plugin、git clone
+
 [TOC]
 
 ## 1.安装jenkins
@@ -23,27 +24,27 @@ This may also be found at: /Users/liuhe/.jenkins/secrets/initialAdminPassword //
 ```
 
     浏览器输入：http://localhost:8080/
-  ![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80Jenkins.png?raw=true)
+  ![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80Jenkins.png?raw=true)
   
 ## 3.安装plugin
 **安装成功后第一次启动，会出现引导页，引导提示你安装必要的插件，大体如下（下图是管理页面截图）**
 
-![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/Jenkis%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2.png?raw=true)
+![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/Jenkis%E7%AE%A1%E7%90%86%E9%A1%B5%E9%9D%A2.png?raw=true)
 
 **可选插件-包含各个平台相关插件,安装必要插件 如git plugin**。
 
-![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/Jenkins%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E9%A1%B5%E9%9D%A2.png?raw=true)
+![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/Jenkins%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E9%A1%B5%E9%9D%A2.png?raw=true)
 
 ## 4.构建项目（New Item）
 **进入jenkins首页，创建项目。**
 
-![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/Jenkins%E9%A6%96%E9%A1%B5.png?raw=true)
+![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/Jenkins%E9%A6%96%E9%A1%B5.png?raw=true)
 
-![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE%20git%20clone.png?raw=true)
+![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE%20git%20clone.png?raw=true)
 
 **从github或者gitlab clone代码**
 
-![image](https://github.com/liuhea/DevNote/blob/master/CSDN/Jenkins/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE%20git%20clone.png?raw=true)
+![image](https://github.com/liuhea/DevNote/blob/master/jenkins/res/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE%20git%20clone.png?raw=true)
 
 ## 5.简单配置（不重要）
 ### 端口号临时修改
