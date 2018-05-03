@@ -58,7 +58,7 @@ $ npm install gitbook -g
 
 * [github](https://plugins.gitbook.com/plugin/github):在右上角显示 github 仓库的图标链接。
 * [anchor-navigation](https://plugins.gitbook.com/plugin/anchor-navigation)：添加Toc到侧边悬浮导航以及回到顶部按钮
-* [Prism](https://plugins.gitbook.com/plugin/prism):基于 Prism 的代码高亮。
+* [prism-ext](https://plugins.gitbook.com/plugin/prism-ext):基于 Prism-ext 的代码高亮，替代highlight。
 * [donate](https://plugins.gitbook.com/plugin/donate):打赏
 
 其它插件可通过 [gitbook plugins官网](https://plugins.gitbook.com/) 搜索。
