@@ -34,8 +34,8 @@
             "css": ["prismjs/themes/prism-tomorrow.css"]
         },
         "donate": {
-            "wechat": "/Youdao/weixin_pay.png",
-            "alipay": "/Youdao/ali_pay.png",
+            "wechat": "https://github.com/liuhea/DevNote/blob/e40c2505675a8d8230c9b60c6bd6a4abb30b6c41/Youdao/weixin_pay.png?raw=true",
+            "alipay": "https://github.com/liuhea/DevNote/blob/e40c2505675a8d8230c9b60c6bd6a4abb30b6c41/Youdao/ali_pay.png?raw=true",
             "button": "赞赏",
             "wechatText": "微信打赏",            
             "alipayText": "支付宝打赏"
