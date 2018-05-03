@@ -13,7 +13,7 @@
         },
         "anchor-navigation-ex": {
                 "associatedWithSummary":false,
-                "showLevel":false,
+                "showLevel":true,
                 "multipleH1": true,
                 "mode": "float",
                 "pageTop": {
