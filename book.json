@@ -23,6 +23,11 @@
                       "level3Icon": "fa fa-hand-o-right"
                 }
         },
+        "prism": {
+            "css": [
+                 "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
             "button": "赞赏",
