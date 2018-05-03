@@ -2,7 +2,9 @@
 "author": "Liuhe",
 "description": "Liuhe's Book",
 "plugins": ["github"],
-"github": {
-    "url": "https://github.com/liuhea"    
+"pluginsConfig":{
+    "github": {
+        "url": "https://github.com/liuhea"    
+        }
     }
 }
