@@ -31,7 +31,7 @@
                 }
         },
         "prism": {
-            "css": ["prismjs/themes/prism-solarizedlight.css"],"lang": {
+            "css": ["prismjs/themes/prism-tomorrow.css"],"lang": {
       "flow": "typescript"
     }
         },
