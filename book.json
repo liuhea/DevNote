@@ -36,7 +36,7 @@
             "wechatText": "微信打赏"
          },"sharing": {
             "all": [
-                "weibo","qq","qzone","google","douban"
+                "weibo","qq","qzone","google","weixin"
             ]
         }
     }
