@@ -2,7 +2,8 @@
 "author": "Liuhe",
 "description": "Liuhe's Book",
 "plugins": ["github",
-            "anchor-navigation-ex", "donate"
+            "anchor-navigation-ex",
+             "donate"
             ],
 "pluginsConfig":{
     "github": {
@@ -21,12 +22,7 @@
                   "level3Icon": "fa fa-hand-o-right"
             }
         }
-    }, 
-    "sharing": {
-            "all": [
-                "weibo","qq","qzone","google"
-            ]
-        },"donate": {
+    },"donate": {
             "wechat": "http://7q5c2h.com1.z0.glb.clouddn.com/wechatpay.JPG",
             "title": "",
             "button": "赏",
