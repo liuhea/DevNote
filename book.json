@@ -23,10 +23,6 @@
                   "level3Icon": "fa fa-hand-o-right"
             }
         }
-    },
-    "prism": {
-        "css": [
-          "prismjs/themes/prism-tomorrow.css"
-        ]
+    }
   }
 }
