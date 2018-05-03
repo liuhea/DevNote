@@ -3,7 +3,7 @@
 [TOC]
 ## 问题
 ### 1. 启动Jenkis提示端口占用
-![img](https://github.com/liuhea/DevNote/blob/master/jenkins/%E5%90%AF%E5%8A%A8Jenkis%E6%8F%90%E7%A4%BA%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8.png?raw=true)
+![img](https://github.com/liuhea/DevNote/blob/master/jenkins/res/%E5%90%AF%E5%8A%A8Jenkis%E6%8F%90%E7%A4%BA%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8.png?raw=true)
 
 解决：	
   1. 参考端口号：lsof -i tcp:port 将port换成被占用的端口(如：8086、8080) 
