@@ -41,7 +41,7 @@
             "weibo": false,
             "whatsapp": false,
             "all": [
-                "weibo","qq","qzone","google","douban"
+                "weibo","qq","qzone","google"
             ]
         },
 }
