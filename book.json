@@ -31,7 +31,7 @@
                 }
         },
         "prism": {
-            "theme": "prismjs/themes/prism-solarizedlight.css"
+            "theme": "prismjs/themes/prism-tomorrow.css"
         },
         "donate": {
             "wechat": "/Youdao/weixin_pay.png",
