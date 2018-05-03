@@ -38,6 +38,6 @@
             "all": [
                 "weibo","qq","qzone","google","douban"
             ]
-        },
+        }
     }
 }
