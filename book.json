@@ -31,7 +31,7 @@
             "wechat": "/Youdao/weixin_pay.png", 
             "alipay": "/Youdao/ali_pay.png",
             "title": "",
-            "button": "赏"
+            "button": "赞赏"
         }
     }
 }
