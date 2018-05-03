@@ -7,7 +7,7 @@
                 "anchor-navigation-ex",
                 "prism","-highlight",
                 "donate", 
-                "-sharing","sharing-plus"
+                "sharing-plus","-sharing"
                 ],
     "pluginsConfig":{
         "github": {
@@ -34,7 +34,8 @@
             "wechat": "/Youdao/weixin_pay.png",
             "button": "赞赏",
             "wechatText": "微信打赏"
-         },"sharing": {
+         },
+         "sharing": {
             "all": [
                 "weibo","qq","qzone","google"
             ]
