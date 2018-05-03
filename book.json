@@ -7,7 +7,7 @@
                 "anchor-navigation-ex",
                 "prism","-highlight",
                 "donate", "-sharing",
-                 "sharing-plus",
+                 "sharing-plus"
                 ],
     "pluginsConfig":{
         "github": {
