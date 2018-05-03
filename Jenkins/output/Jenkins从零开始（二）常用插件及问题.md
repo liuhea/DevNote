@@ -13,7 +13,15 @@
 ### Jenkis 可选插件为空
 参考：[jenkins可选插件为空的解决方式](https://www.cnblogs.com/926xiuxiu/p/7766730.html)
 
-打开一个新的tab，输入网址http://localhost:8080/pluginManager/advanced。打开后这里面最底下有个【升级站点】，把其中的链接改成http的就好了，http://updates.jenkins.io/update-center.json。 然后在服务列表中关闭jenkins，再启动，这样就能正常联网了。
+打开一个新的tab，输入网址：
+
+`http://localhost:8080/pluginManager/advanced`
+
+打开后这里面最底下有个【升级站点】，把其中的链接改成http的就好了：
+
+`http://updates.jenkins.io/update-center.json`
+
+  然后在服务列表中关闭jenkins，再启动，这样就能正常联网了。
 
 ### error：SDK location not found.
 ![img](https://github.com/liuhea/DevNote/blob/master/Jenkins/res/SDK%20location%20not%20found.png?raw=true)
