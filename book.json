@@ -7,7 +7,6 @@
 "pluginsConfig":{
     "github": {
         "url": "https://github.com/liuhea"    
-        }
     },
     "anchor-navigation-ex": {
             "associatedWithSummary":false,
