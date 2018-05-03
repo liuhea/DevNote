@@ -7,3 +7,4 @@
 * [Kotlin学习笔记-基本使用](/Kotlin/output/Kotlin学习笔记-基本使用.md)
 * [Vim学习](/Vim/output/vim学习.md)
 * [Markdown语法](/others/Markdown语法.md)
+* [文献检索常用命令](/others/文献检索常用命令.md)
