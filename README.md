@@ -8,6 +8,8 @@ GitHub: https://github.com/liuhea
 
 CSDN  : https://blog.csdn.net/liuhedev
 
+GitBook: https://liuhea.gitbooks.io/devnote/content/#liuhes-book
+
 2018年学习内容：
 
     - 数据结构与算法
