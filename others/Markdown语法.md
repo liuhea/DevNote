@@ -86,7 +86,7 @@ Bob-->Alice: I am good thanks!
 
 方法二:一个支持参数的图床，比如七牛。
 
-![img](http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/300/q/90)
+![](http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/300/q/90)
 
 ## 印象笔记相关
 
