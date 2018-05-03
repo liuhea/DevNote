@@ -15,8 +15,7 @@
                 "showLevel":true,
                 "multipleH1": true,
                 "mode": "float",
-    
-                 "pageTop": {
+                "pageTop": {
                       "showLevelIcon": false,
                       "level1Icon": "fa fa-hand-o-right",
                       "level2Icon": "fa fa-hand-o-right",
